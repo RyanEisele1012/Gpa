@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1226a99f-fb6f-404d-bdf1-c8b408bf2227/d1wzqsz-f2dfa991-6772-4900-b053-b1ae59265508.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzEyMjZhOTlmLWZiNmYtNDA0ZC1iZGYxLWM4YjQwOGJmMjIyN1wvZDF3enFzei1mMmRmYTk5MS02NzcyLTQ5MDAtYjA1My1iMWFlNTkyNjU1MDguanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.QWYo4sxDK98SeYpDmFfqkf2yF9OpOqfZRZeoUCaK1Q0'); /* Replace 'your-image-path.jpg' with the path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Align everything to the center */
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  background-color: #f80000;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: auto; /* Center the card horizontally */
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
